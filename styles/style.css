@@ -1,61 +1,67 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+* {
+  font-family: 'Libre Baskerville', serif;
+}
 
 html {
 }
 
 body {
-  font-family: Roboto, serif;
-  text-align: center;
-  min-width: 1000px;
-  width: auto !important;
-  width:1000px;  
+  background-color: #fcf7e6;
+  min-width: 800px;
+  margin: auto;
 }
 
 h1 {
-  font-size: 100px;
-  letter-spacing: 1px;
-  margin: 2% 0%
+  font-size: 60px;
+  padding-top: 100px;
+  margin-bottom: 0;
 }
 
 h2 {
-  font-size: 36px;
-  margin: 1% 0;
+  font-size: 35px;
+  margin-bottom: 0;
 }
 
-p {
-  margin: 0 25%;
-  font-size: 18px;
+p, li {
+  font-size: 20px;
   line-height: 1.5em;
 }
 
-.headshot {
-  width: 300px;
-  height: 300px ;
+a {
+  color: #7A1E0E;
+}
+
+hr {
+  height: 2px;
+  background: #291912;
+  border: none;
+  width: 800px;
+}
+
+img {
+  width: 220px;
+  height: auto;
+  margin: 130px 20px auto 50px;
+  border: 3px solid #291912;
   border-radius: 50%;
-  margin: 5% 0 0 0;
-  border: 10px solid #222;
-}
-
-.menubar {
-  background-color: #AAA;
-  overflow: hidden;
-}
-
-.menubar a {
   float: right;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
 }
 
-.menubar a:hover {
-  background-color: #ddd;
-  color: black;
+.spotify-embed {
+  border-radius: 12px;
+  width: 250px;
+  height: 250px;
+  border: 0;
+  margin: 0 5px 0 5px;
 }
 
-.menubar a.active {
-  background-color: #888;
-  color: white;
+.banner {
+  height: 100px;
+  width: 100%;
+  background-color: #ffe;
+}
+
+.section {
+  margin: 50px auto 50px auto;
+  width: 800px;
 }
