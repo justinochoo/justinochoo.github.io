@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-color: #fcf7e6;
+  background-color: #fffff0;
   min-width: 800px;
   margin: auto;
 }
@@ -56,9 +56,9 @@ img {
 }
 
 .banner {
-  height: 100px;
+  height: 50px;
   width: 100%;
-  background-color: #ffe;
+  background-color: #ffffff;
 }
 
 .section {
