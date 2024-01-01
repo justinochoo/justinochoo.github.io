@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <link href="styles/style copy.css" rel="stylesheet" />
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <meta charset="utf-8" />
+	    <meta name="viewport" content="width=device-width" />
+	    <title>Justin Choo</title>
+ 	 </head>
+
+	<body>
+		<div class="banner"></div>
+
+		<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
+
+		<div class="section">
+			<img src="images/headshot_square.png" alt="headshot">
+			<h1>Hi, I'm Justin.</h1>
+			<p class="intro">I'm a junior at Stanford University majoring in Symbolic Systems with a concentration in Neuroscience. I'm also minoring in Music and Philosophy. If you'd like to get in touch, you can email me at <a href="mailto:justinchoo@stanford.edu" target="_blank">justinchoo@stanford.edu</a>.</p>
+		</div>
+
+		<div class="icons">
+			<a href="https://www.linkedin.com/in/justinochoo/" target="_blank" class="fa fa-linkedin"></a>
+			<a href="https://www.instagram.com/justinochoo" target="_blank" class="fa fa-instagram"></a>
+		</div>
+
+		<hr>
+
+	</body>
+</html>

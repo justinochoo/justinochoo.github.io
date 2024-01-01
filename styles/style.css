@@ -1,67 +1,73 @@
 * {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Roboto", sans-serif;
 }
 
 html {
 }
 
 body {
-  background-color: #fffff0;
+  background-color: #ffffff;
   min-width: 800px;
   margin: auto;
 }
 
 h1 {
-  font-size: 60px;
-  padding-top: 100px;
-  margin-bottom: 0;
-}
-
-h2 {
   font-size: 35px;
+  padding-top: 90px;
   margin-bottom: 0;
 }
 
-p, li {
-  font-size: 20px;
+p {
+  font-size: 18px;
   line-height: 1.5em;
-}
-
-a {
-  color: #7A1E0E;
+  margin-bottom: 60px;
+  color: #555555;
 }
 
 hr {
   height: 2px;
-  background: #291912;
+  background: #bbbbbb;
   border: none;
   width: 800px;
 }
 
 img {
-  width: 220px;
+  width: 180px;
   height: auto;
-  margin: 100px 10px auto 50px;
-  border: 3px solid #291912;
+  margin: 80px 50px auto 70px;
+  border: 3px solid #999999;
   border-radius: 50%;
-  float: right;
+  float: left;
 }
 
-.spotify-embed {
-  border-radius: 12px;
-  width: 250px;
-  height: 250px;
-  border: 0;
-  margin: 0 5px 0 5px;
-}
-
-.banner {
+ul {
   height: 70px;
+  margin-top: 0px;
   width: 100%;
-  background-color: #291912;
+  background-color: #dddddd;
+}
+
+li {
+  display: inline;
+  float: right;
+  padding-top: 25px;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+  padding-right: 50px;
 }
 
 .section {
-  margin: 50px auto 50px auto;
+  margin: 50px auto 105px auto;
   width: 800px;
+}
+
+.fa {
+  padding: 10px;  
+  text-decoration: none;
+  background: #ffffff;
+  color: #555555;
+  float: right;
 }

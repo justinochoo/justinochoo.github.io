@@ -1,0 +1,67 @@
+* {
+  font-family: 'Libre Baskerville', serif;
+}
+
+html {
+}
+
+body {
+  background-color: #fffff0;
+  min-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 60px;
+  padding-top: 100px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+p, li {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+a {
+  color: #7A1E0E;
+}
+
+hr {
+  height: 2px;
+  background: #291912;
+  border: none;
+  width: 800px;
+}
+
+img {
+  width: 220px;
+  height: auto;
+  margin: 100px 10px auto 50px;
+  border: 3px solid #291912;
+  border-radius: 50%;
+  float: right;
+}
+
+.spotify-embed {
+  border-radius: 12px;
+  width: 250px;
+  height: 250px;
+  border: 0;
+  margin: 0 5px 0 5px;
+}
+
+.banner {
+  height: 70px;
+  width: 100%;
+  background-color: #291912;
+}
+
+.section {
+  margin: 50px auto 50px auto;
+  width: 800px;
+}
